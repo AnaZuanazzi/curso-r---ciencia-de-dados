@@ -1,0 +1,21 @@
+---
+title: "curso-r - Ciência de dados 2"
+author: "Ana Zuanazzi"
+date: "27/04/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+install.packages("tidyverse")
+install.packages("devtools")
+install.packages("flexdashboard")
+install.packages("janitor")
+install.packages("RPostgres")
+```
+```{r}
+
+v
+writeLines('PATH="${RTOOLS40_HOME}\\usr\\bin;${PATH}"', con = "~/.Renviron")
+```
+
